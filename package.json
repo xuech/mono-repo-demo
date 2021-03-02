@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start:aSite": "lerna --scope @mono-repo-demo/admin-site run start",
+    "start:bSite": "lerna --scope @mono-repo-demo/customer-site run start"
+  },
+  "devDependencies": {
+    "antd": "^4.13.0",
+    "lerna": "^3.22.1"
+  }
+}
