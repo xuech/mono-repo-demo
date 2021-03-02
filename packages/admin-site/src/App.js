@@ -1,16 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import WaterForm from "@mono-repo-demo/common/components/WaterForm";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          admin-site
-        </p>
-        
-      </header>
+      <WaterForm />
     </div>
   );
 }
